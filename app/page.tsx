@@ -47,11 +47,13 @@ export default function LandingPage() {
                     type="email"
                     placeholder="Enter your email to begin the journey"
                     className="flex-1 h-14 text-lg border-2 border-warm-peach/30 focus:border-sunset-orange focus:ring-sunset-orange rounded-2xl bg-white/80"
-                  />
-                  <Button className="h-14 px-10 bg-gradient-to-r from-sunset-orange via-warm-coral to-golden-hour hover:from-golden-hour hover:to-sunset-orange text-white font-bold rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
-                    Get Early Access ✨
-                  </Button>
-                </div>
+                  <a 
+  href="http://eepurl.com/jiImeY" 
+  target="_blank"
+  className="bg-orange-500 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-orange-600 transition-colors inline-block text-center"
+>
+  Join Early Access Waitlist →
+</a>
                 <div className="flex items-center justify-center mt-4 space-x-4">
                   <div className="flex -space-x-2">
                     {[1, 2, 3, 4].map((i) => (
